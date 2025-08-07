@@ -1,7 +1,7 @@
 import requests
 
-#perplexity key
-API_KEY = "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"
+#perplexity key - request owner for key
+API_KEY = ""
 
 #api endpoint
 url = "https://api.perplexity.ai/chat/completions"
@@ -44,3 +44,4 @@ if __name__ == "__main__":
         print(response_text)
     except Exception as e:
         print(str(e))
+
